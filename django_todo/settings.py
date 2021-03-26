@@ -26,7 +26,7 @@ SECRET_KEY = 'pki1529#ri(#o$dco#luaxvyr&cle9lp$)h*gkc*a0%40+(b%q'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['macs-django-todo-list-app.herokuapp.com']
 
 
 # Application definition
