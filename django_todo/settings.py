@@ -28,7 +28,10 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'pki1529#ri(#o$dco#luaxvyr&cle9lp$)h*g
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = development
 
-ALLOWED_HOSTS = [os.environ.get('HEROKU_HOSTNAME')]
+if development:
+    ALLOWED_HOSTS = ['localhost']
+    ALLOWED_HOSTS = [os.environ.get('HEROKU_HOSTNAME')]
+
 
 # Application definition
 
