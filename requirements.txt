@@ -2,6 +2,7 @@ asgiref==3.3.1
 coverage==5.5
 dj-database-url==0.5.0
 Django==3.1.7
+gunicorn @ git+https://github.com/benoitc/gunicorn.git@b83448bfb42184f43adf155f86bcd2a570a1139d
 psycopg2-binary==2.8.6
 pylint-django==2.4.2
 pylint-plugin-utils==0.6
